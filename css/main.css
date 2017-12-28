@@ -1,0 +1,87 @@
+
+#startbg{
+    /*outline: 1px solid #ff0000;*/
+    width: 320px;
+    height: 568px;
+    position: absolute;
+    left: 400px;
+    background-image: url("../image/开始背景.png");
+}
+#start{
+    font-size: 26px;
+    color: #000000;
+    background: gray;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #ffffff;
+    margin: 400px 110px;
+}
+#gamebg{
+    /*outline: 1px solid blue;*/
+    width: 320px;
+    height: 568px;
+    position: absolute;
+    left: 400px;
+    background-image: url("../image/background_1.png");
+    background-repeat: repeat;
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+img:hover{cursor: pointer}
+#end{
+    font-size: 50px;
+    color: #000000;
+    display: none;
+    margin-left: 56px;
+    margin-top: 30px;
+}
+#over{
+    width: 320px;
+    height: 250px;
+    background-color: #555555;
+    margin-top: 150px;
+    display: none;
+}
+#sum{
+    display: none;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+#reload{
+    display: none;
+    font-size: 25px;
+    margin-top: 160px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 10;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #999999;
+    font-weight: bold;
+}
+#stop{
+    display: none;
+    width: 320px;
+    height: 150px;
+    background-color: #555555;
+    margin-top: 200px;
+    z-index: 9;
+    position: absolute;
+}
+#continue{
+    display: block;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 75px;
+}
+#span1{
+    font-size: 20px;
+    margin-left: 105px;
+    color: #ff2832;
+    display: block;
+    margin-top: 35px;
+}
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="css/main.css"/>
+    </head>
+    <body>
+
+        <p style="float: left; font-size: 20px; color: #ff0000">
+            温馨提示：<br/><br/>
+            （1）鼠标左键点击“开始游戏”，<br/><br/> 然后你就可以开开心心的玩游戏了；<br/><br/>
+            （2）游戏中，空格键“发射子弹”，<br/><br/> Enter键“暂停”和“继续”游戏，<br/><br/> ↑↓↔控制飞机“上下左右”移动。<br/> <br/>
+            （3）消灭小飞机获得100积分，中飞<br/><br/>机500积分，大飞机1000积分。
+        </p>
+
+        <div id="startbg">
+            <input id="start" type="button" value="开始游戏"/>
+        </div>
+        <div id="gamebg">
+            <label for="">分数：</label><span id="score">0</span><br/>
+            <div id="over">
+                <span id="end">游戏结束</span>
+                <span id="sum"></span>
+                <input id="reload" type="button" value="重新开始"/>
+            </div>
+
+            <div id="stop">
+                <span id="span1">游戏暂停中！</span>
+                <span id="continue">按Enter键继续</span>
+            </div>
+
+
+        </div>
+    </body>
+</html>
+<script src="js/main.js"></script>
