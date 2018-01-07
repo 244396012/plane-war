@@ -39,19 +39,19 @@ function run(){
 //产生敌机！！！！！！！！！！！！！！！！！！！！
     temp1++;
     if(temp1 == 6){
-        var enemyPlanes1 = new Enemyplane("../image/enemy1_fly_1.png", "../image/小飞机爆炸.gif", 0, Math.round(Math.random()*(320-34)), 1,"../image/小飞机爆炸.gif");
+        var enemyPlanes1 = new Enemyplane("image/enemy1_fly_1.png", "image/小飞机爆炸.gif", 0, Math.round(Math.random()*(320-34)), 1,"../image/小飞机爆炸.gif");
         temp1 = 0;
         enemy1.push(enemyPlanes1);
     }
     temp2++;
     if(temp2 == 23){
-        var enemyPlanes2 = new Enemyplane("../image/enemy3_fly_1.png", "../image/中飞机爆炸.gif", 0, Math.round(Math.random()*(320-46)), 3,"../image/中飞机挨打.png");
+        var enemyPlanes2 = new Enemyplane("image/enemy3_fly_1.png", "image/中飞机爆炸.gif", 0, Math.round(Math.random()*(320-46)), 3,"../image/中飞机挨打.png");
         temp2 = 0;
         enemy2.push(enemyPlanes2);
     }
     temp3++;
     if(temp3 == 61){
-        var enemyPlanes3 = new Enemyplane("../image/enemy2_fly_1.png", "../image/大飞机爆炸.gif", 0, Math.round(Math.random()*(320-110)), 5,"../image/大飞机挨打.png");
+        var enemyPlanes3 = new Enemyplane("image/enemy2_fly_1.png", "image/大飞机爆炸.gif", 0, Math.round(Math.random()*(320-110)), 5,"../image/大飞机挨打.png");
         temp3 = 0;
         enemy3.push(enemyPlanes3);
     }
