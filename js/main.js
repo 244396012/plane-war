@@ -247,7 +247,7 @@ function Plane(PlaneSrc,planeBoomSrc,planeHeight,planeWidth,planeTop,planeLeft){
     this.gameway();
 }
 //我的飞机！！！！！！！！！！！！！！！！！！！
-var myPlane = new Myplane("../image/我的飞机.gif", "../image/本方飞机爆炸.gif", 80, 66, 568-80, (320-66)/2);
+var myPlane = new Myplane("image/我的飞机.gif", "image/本方飞机爆炸.gif", 80, 66, 568-80, (320-66)/2);
 //产生子弹！！！！！！！！！！！！！！！！！！！！！
 function Bullets(bulletsrc, bullettop, bulletleft) {
     this.bsrc = bulletsrc;
@@ -272,7 +272,7 @@ window.onkeydown = function(e){
     if(et.type == "keydown" && et.keyCode == "32"){
         var bulX = et.clientX - 300;
         var bulY = et.clientY;
-        var buls = new Bullets("../image/bullet1.png", bulY + "px", bulX + "px");
+        var buls = new Bullets("image/bullet1.png", bulY + "px", bulX + "px");
         buls.imgNode.style.left = parseInt(myPlane.imgNode.style.left)  + 33 + "px";
         buls.imgNode.style.top = parseInt(myPlane.imgNode.style.top) - 10 + "px";
         bullets.push(buls);
