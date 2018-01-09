@@ -1,5 +1,5 @@
 /**
- * Created by Administrator on 15-9-23.
+ * Created by ZhaoYong on 15-9-23.
  */
 var start = document.getElementById("start");
 var startbg = document.getElementById("startbg");
